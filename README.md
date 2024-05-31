@@ -1,38 +1,51 @@
 # 17 CS | Regex Tutorial
 
-GO TO GIST on GITHUB
-DO THE WORK THERE
-NOT HERE
-
-
-
-## Your Task
-
-Developers write code, but they also *write about code*. Take a moment to search the web for tutorials about any of the subjects you’ve learned so far in this course. You’re likely to find thousands of tutorials written by developers of all skill levels, including junior developers&mdash;like yourself!
+## The Challenge: 
 
 Your assignment this week is to create a tutorial that explains how a specific regular expression, or regex, functions by breaking down each part of the expression and describing what it does. You'll use the template provided in the starter code to create your walkthrough.
 
-## User Story
+## Project Conduction:
 
-```md
-AS A web development student
-I WANT a tutorial explaining a specific regex
-SO THAT I can understand the search pattern the regex defines
-```
+As a web development student, I want a tutorial explaining a specific regex, then I can have a better understanding about the search pattern that regex defines.
 
-## Acceptance Criteria
 
-```md
-GIVEN a regex tutorial
-WHEN I open the tutorial
-THEN I see a descriptive title and introductory paragraph explaining the purpose of the tutorial, a summary describing the regex featured in the tutorial, a table of contents linking to different sections that break down each component of the regex and explain what it does, and a section about the author with a link to the author’s GitHub profile
-WHEN I click on the links in the table of contents
-THEN I am taken to the corresponding sections of the tutorial
-WHEN I read through each section of the tutorial
-THEN I find a detailed explanation of what a specific component of the regex does
-WHEN I reach the end of the tutorial
-THEN I find a section about the author and a link to the author’s GitHub profile
-```
+## Acceptance Criteria:
+
+- Given a regex tutorial, when the user opens the tutorial
+they see the following:
+    - descriptive title
+    - introductory paragraph explaining the purpose of the tutorial
+    - a summary describing the regex featured in the tutorial
+    - a table of contents linking to different sections that break down each component of the regex and explain what it does
+    - a section about the author with a link to the author’s GitHub profile
+
+- When the user clicks on the links in the table of contents, they are taken to the corresponding sections of the tutorial.
+
+- When the user reads through each section of the tutorial, they find a detailed explanation of what a specific component of the regex does.
+
+- When the user reaches the end of the tutorial, they find a section about the author and a link to the author’s GitHub profile.
+
+
+#### Short List
+
+* Include all of the sections that correspond to the different components of the regex you chose.
+
+* Each section that describes a component must include more than just one sentence explaining what it does, be thourogh.
+
+* Each section that describes a component must include a code snippet of that particular component. Use backticks to display your code snippets in Markdown.
+
+* Each section that describes a component must include at least one example that meets the requirements of that component.
+
+
+## The Deployment:
+
+The Gist: [Click Here.](https://github.com/NovaLanceBrittany/HW-18-NoSQL-Network-API)
+
+
+
+
+
+
 
 ## What Is a Regex?
 
@@ -52,17 +65,6 @@ You can choose one of the following regular expressions or you can choose one th
 
 * Matching a Hex Value: `/^#?([a-f0-9]{6}|[a-f0-9]{3})$/`
 
-* Matching an Email: `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
-
-* Matching a URL: `/^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/`
-
-* Matching an HTML Tag: `/^<([a-z]+)([^<]+)*(?:>(.*)<\/\1>|\s+\/>)$/`
-
-## Getting Started
-
-Instead of creating a repository, you’ll publish a GitHub gist. GitHub describes a **gist** as a simple way to share code snippets with others. It’s also an ideal way to demonstrate a technique, teach a principle, or show off a solution. It functions just like a repository, and you’ll use Markdown to create it, just as you do with your READMEs. Gists can include code, images, links, and anything else you can include in a README.
-
-After you’ve downloaded the starter code, learn [how to create a gist](https://help.github.com/en/github/writing-on-github/creating-gists). You can also watch this [video on how to use gists](https://www.youtube.com/watch?v=wc2NlcWjQHw).
 
 > **Important**: Make sure to create a **public** gist and add the `.md` file extension to the file name so that your Markdown renders correctly.
 
@@ -76,52 +78,8 @@ Each section that describes a component should include more than just one senten
 
 ## Grading Requirements
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
-
-This Challenge is graded based on the following criteria:
-
-### Deliverables: 30%
-
-* A valid URL of your GitHub gist.
 
 * Your GitHub gist that contains the tutorial Markdown. Your gist must include the `.md` file extension so that your Markdown renders correctly.
 
-### Technical Acceptance Criteria: 50%
 
-* Satisfies all of the above acceptance criteria plus the following:
 
-    * Revisions to the tutorial must be made in the GitHub gist UI so that graders have access to your revision history.
-
-    * The tutorial must cover one of the regex examples listed above or another of your choice. You may NOT use the regex covered in the [Regex Tutorial: Matching a Username](https://coding-boot-camp.github.io/full-stack/computer-science/regex-tutorial).
-
-    * The tutorial must include sections that correspond to each of the components that make up the regex. You may not need to use all of the sections included in the starter code, but you should include all of the sections that correspond to the different components of the regex you chose.
-
-    * Each section that describes a component must include more than just one sentence explaining what it does. It’s okay to use online resources for assistance, but do not copy and paste; explain each component in your own words and be thorough.
-
-    * Each section that describes a component must include a code snippet of that particular component. Use backticks to display your code snippets in Markdown.
-
-    * Each section that describes a component must include at least one example that meets the requirements of that component.
-
-### Tutorial Clarity and Quality: 20%
-
-* Tutorial provides a clear explanation of how the regex works. Be as concise as possible.
-
-* Tutorial describes each regex component in a separate section.
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the GitHub gist. Give the gist a unique name.
-
----
-
-© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
