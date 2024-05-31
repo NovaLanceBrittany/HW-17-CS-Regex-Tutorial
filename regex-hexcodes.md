@@ -121,13 +121,6 @@ Sometimes as we write the code, blocks of code could have inproper indentation o
 - `^#?([a-f0-9]{6}|[a-f0-9]{3})$`
 
 
-### Character Escapes
-No Print Characters, or more commonly known as Character Escapes. There are a ton of different Character Escapes, but we will focus only on what the Hex Code Regex needs. 
-
-We use the backslash `\\` 
-
-- `/^#?([a-f0-9]{6}|[a-f0-9]{3})$/`
-
 ## References
 - Regular Expressions @grymoire [Click Here.](https://www.grymoire.com/Unix/Regular.html#:~:text=There%20are%20also%20two%20types,a%20feature%20in%20both%20types.)
 - Regular Expressions @mdn web docs [Click Here.](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions/Cheatsheet#groups_and_backreferences)
